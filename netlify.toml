@@ -1,2 +1,7 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[plugins]]
+from = "/*"
+to = "/index.html"
+status = 200
